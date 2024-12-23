@@ -1,0 +1,19 @@
+{
+  "name": "clinical-api-jobs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clinical": "node src/clinical.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@google-cloud/storage": "^7.14.0",
+    "dotenv": "^16.4.7",
+    "mysql": "^2.18.1",
+    "parquetjs": "^0.11.2",
+    "stream": "^0.0.3"
+  }
+}
